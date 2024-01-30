@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VizbeeHomeSSOKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import VizbeeKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class VZBSignInStatusEvent {
+  final public let type: VizbeeHomeSSOKit.VZBSignInType
+  final public let status: VizbeeHomeSSOKit.VZBSignInStatus
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VZBHomeSSOManager : ObjectiveC.NSObject {
+  public static var shared: VizbeeHomeSSOKit.VZBHomeSSOManager {
+    get
+  }
+  public func initialize(signInAdapter adapter: any VizbeeHomeSSOKit.VZBHomeSSOAdapter)
+  @objc deinit
+}
+public enum VZBSignInType : Swift.String {
+  case tveSignIn
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum VZBSignInStatus : Swift.String {
+  case signInNotStarted
+  case signInInProgress
+  case signInCompleted
+  case signInFailed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol VZBHomeSSOAdapter {
+  func isSignedIn(signInType: VizbeeHomeSSOKit.VZBSignInType, completionHandler: @escaping (Swift.Bool?, (any Swift.Error)?) -> Swift.Void)
+  func getSignInTypeToStartOnTV() -> VizbeeHomeSSOKit.VZBSignInType
+  func onSignInStatus(_ status: VizbeeHomeSSOKit.VZBSignInStatusEvent)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VZBTVESignInStatusEvent : VizbeeHomeSSOKit.VZBSignInStatusEvent {
+  final public let regCode: Swift.String
+  @objc deinit
+}
+extension VizbeeHomeSSOKit.VZBSignInType : Swift.Equatable {}
+extension VizbeeHomeSSOKit.VZBSignInType : Swift.Hashable {}
+extension VizbeeHomeSSOKit.VZBSignInType : Swift.RawRepresentable {}
+extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.Equatable {}
+extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.Hashable {}
+extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.RawRepresentable {}

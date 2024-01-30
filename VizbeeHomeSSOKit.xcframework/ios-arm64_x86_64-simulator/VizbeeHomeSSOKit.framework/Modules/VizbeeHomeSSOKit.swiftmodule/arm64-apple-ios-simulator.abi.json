@@ -1,0 +1,1443 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBSignInStatusEvent",
+        "printedName": "VZBSignInStatusEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBSignInType",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC4typeAA0dE4TypeOvp",
+            "mangledName": "$s16VizbeeHomeSSOKit20VZBSignInStatusEventC4typeAA0dE4TypeOvp",
+            "moduleName": "VizbeeHomeSSOKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInType",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                    "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC4typeAA0dE4TypeOvg",
+                "mangledName": "$s16VizbeeHomeSSOKit20VZBSignInStatusEventC4typeAA0dE4TypeOvg",
+                "moduleName": "VizbeeHomeSSOKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBSignInStatus",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC6statusAA0deF0Ovp",
+            "mangledName": "$s16VizbeeHomeSSOKit20VZBSignInStatusEventC6statusAA0deF0Ovp",
+            "moduleName": "VizbeeHomeSSOKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInStatus",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                    "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC6statusAA0deF0Ovg",
+                "mangledName": "$s16VizbeeHomeSSOKit20VZBSignInStatusEventC6statusAA0deF0Ovg",
+                "moduleName": "VizbeeHomeSSOKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC",
+        "mangledName": "$s16VizbeeHomeSSOKit20VZBSignInStatusEventC",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBHomeSSOManager",
+        "printedName": "VZBHomeSSOManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBHomeSSOManager",
+                "printedName": "VizbeeHomeSSOKit.VZBHomeSSOManager",
+                "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBHomeSSOManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOManagerC6sharedACvpZ",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOManagerC6sharedACvpZ",
+            "moduleName": "VizbeeHomeSSOKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBHomeSSOManager",
+                    "printedName": "VizbeeHomeSSOKit.VZBHomeSSOManager",
+                    "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBHomeSSOManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOManagerC6sharedACvgZ",
+                "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOManagerC6sharedACvgZ",
+                "moduleName": "VizbeeHomeSSOKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(signInAdapter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VZBHomeSSOAdapter",
+                "printedName": "VizbeeHomeSSOKit.VZBHomeSSOAdapter",
+                "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOAdapterP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOManagerC10initialize13signInAdapteryAA0D10SSOAdapter_p_tF",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOManagerC10initialize13signInAdapteryAA0D10SSOAdapter_p_tF",
+            "moduleName": "VizbeeHomeSSOKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBHomeSSOManager",
+        "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOManagerC",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBSignInType",
+        "printedName": "VZBSignInType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tveSignIn",
+            "printedName": "tveSignIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInType.Type) -> VizbeeHomeSSOKit.VZBSignInType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInType",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                    "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBSignInType",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                        "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO07tveSignE0yA2CmF",
+            "mangledName": "$s16VizbeeHomeSSOKit13VZBSignInTypeO07tveSignE0yA2CmF",
+            "moduleName": "VizbeeHomeSSOKit"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInType.Type) -> VizbeeHomeSSOKit.VZBSignInType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInType",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                    "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBSignInType",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                        "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO7unknownyA2CmF",
+            "mangledName": "$s16VizbeeHomeSSOKit13VZBSignInTypeO7unknownyA2CmF",
+            "moduleName": "VizbeeHomeSSOKit"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO8rawValueSSvp",
+            "mangledName": "$s16VizbeeHomeSSOKit13VZBSignInTypeO8rawValueSSvp",
+            "moduleName": "VizbeeHomeSSOKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO8rawValueSSvg",
+                "mangledName": "$s16VizbeeHomeSSOKit13VZBSignInTypeO8rawValueSSvg",
+                "moduleName": "VizbeeHomeSSOKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInType",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                    "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16VizbeeHomeSSOKit13VZBSignInTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "VizbeeHomeSSOKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO",
+        "mangledName": "$s16VizbeeHomeSSOKit13VZBSignInTypeO",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBSignInStatus",
+        "printedName": "VZBSignInStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "signInNotStarted",
+            "printedName": "signInNotStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInStatus",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                    "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBSignInStatus",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                        "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO04signE10NotStartedyA2CmF",
+            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE10NotStartedyA2CmF",
+            "moduleName": "VizbeeHomeSSOKit"
+          },
+          {
+            "kind": "Var",
+            "name": "signInInProgress",
+            "printedName": "signInInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInStatus",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                    "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBSignInStatus",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                        "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO04signeE8ProgressyA2CmF",
+            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signeE8ProgressyA2CmF",
+            "moduleName": "VizbeeHomeSSOKit"
+          },
+          {
+            "kind": "Var",
+            "name": "signInCompleted",
+            "printedName": "signInCompleted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInStatus",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                    "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBSignInStatus",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                        "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO04signE9CompletedyA2CmF",
+            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE9CompletedyA2CmF",
+            "moduleName": "VizbeeHomeSSOKit"
+          },
+          {
+            "kind": "Var",
+            "name": "signInFailed",
+            "printedName": "signInFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInStatus",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                    "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBSignInStatus",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                        "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO04signE6FailedyA2CmF",
+            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE6FailedyA2CmF",
+            "moduleName": "VizbeeHomeSSOKit"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSSvp",
+            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSSvp",
+            "moduleName": "VizbeeHomeSSOKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSSvg",
+                "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSSvg",
+                "moduleName": "VizbeeHomeSSOKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBSignInStatus",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
+                    "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "VizbeeHomeSSOKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO",
+        "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBHomeSSOAdapter",
+        "printedName": "VZBHomeSSOAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSignedIn",
+            "printedName": "isSignedIn(signInType:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VZBSignInType",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOAdapterP10isSignedIn04signH4Type17completionHandleryAA07VZBSignhJ0O_ySbSg_s5Error_pSgtctF",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOAdapterP10isSignedIn04signH4Type17completionHandleryAA07VZBSignhJ0O_ySbSg_s5Error_pSgtctF",
+            "moduleName": "VizbeeHomeSSOKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
+            "sugared_genericSig": "<Self where Self : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSignInTypeToStartOnTV",
+            "printedName": "getSignInTypeToStartOnTV()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBSignInType",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInType",
+                "usr": "s:16VizbeeHomeSSOKit13VZBSignInTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOAdapterP24getSignInTypeToStartOnTVAA07VZBSignhI0OyF",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOAdapterP24getSignInTypeToStartOnTVAA07VZBSignhI0OyF",
+            "moduleName": "VizbeeHomeSSOKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
+            "sugared_genericSig": "<Self where Self : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSignInStatus",
+            "printedName": "onSignInStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VZBSignInStatusEvent",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInStatusEvent",
+                "usr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOAdapterP14onSignInStatusyyAA07VZBSignhI5EventCF",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOAdapterP14onSignInStatusyyAA07VZBSignhI5EventCF",
+            "moduleName": "VizbeeHomeSSOKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
+            "sugared_genericSig": "<Self where Self : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16VizbeeHomeSSOKit17VZBHomeSSOAdapterP",
+        "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOAdapterP",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBTVESignInStatusEvent",
+        "printedName": "VZBTVESignInStatusEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "regCode",
+            "printedName": "regCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16VizbeeHomeSSOKit23VZBTVESignInStatusEventC7regCodeSSvp",
+            "mangledName": "$s16VizbeeHomeSSOKit23VZBTVESignInStatusEventC7regCodeSSvp",
+            "moduleName": "VizbeeHomeSSOKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16VizbeeHomeSSOKit23VZBTVESignInStatusEventC7regCodeSSvg",
+                "mangledName": "$s16VizbeeHomeSSOKit23VZBTVESignInStatusEventC7regCodeSSvg",
+                "moduleName": "VizbeeHomeSSOKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16VizbeeHomeSSOKit23VZBTVESignInStatusEventC",
+        "mangledName": "$s16VizbeeHomeSSOKit23VZBTVESignInStatusEventC",
+        "moduleName": "VizbeeHomeSSOKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:16VizbeeHomeSSOKit20VZBSignInStatusEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "VizbeeHomeSSOKit.VZBSignInStatusEvent"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 50,
+      "value": "\"type=\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 1,
+      "value": "\", status=\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1853,
+      "length": 26,
+      "value": "\"VZBSSO_VZBHomeSSOManager\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 57,
+      "value": "\"start HomeSSO for sign in type = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2445,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2835,
+      "length": 51,
+      "value": "\"Error fetching mobile's sign in status - ignoring\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 81,
+      "value": "\"Mobile sign in status fetched - is mobile signed in = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3575,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3684,
+      "length": 128,
+      "value": "\"Sending an event = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3734,
+      "length": 4,
+      "value": "\" with data = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3766,
+      "length": 3,
+      "value": "\" and also registering for the same event type\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4226,
+      "length": 31,
+      "value": "\"onEvent with event = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4256,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4789,
+      "length": 35,
+      "value": "\"Invoked onSignInStatus on adapter\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5003,
+      "length": 48,
+      "value": "\"Session state changed, new state = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5050,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5135,
+      "length": 85,
+      "value": "\"sign in type to start on TV = \""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5216,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5219,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 17,
+      "value": "\"VizbeeHomeSSOKit.VZBHomeSSOHandler\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInType.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 13,
+      "value": "\"tve_sign_in\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInType.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInType.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 13,
+      "value": "\"tve_sign_in\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInType.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 13,
+      "value": "\"not_started\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 13,
+      "value": "\"in_progress\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 6,
+      "value": "\"done\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 13,
+      "value": "\"not_started\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 13,
+      "value": "\"in_progress\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 6,
+      "value": "\"done\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 26,
+      "value": "\"tv.vizbee.homesso.signin\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 10,
+      "value": "\"sub_type\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 20,
+      "value": "\"start_sign_in_info\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 14,
+      "value": "\"is_signed_in\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 14,
+      "value": "\"sign_in_type\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 11,
+      "value": "\"device_os\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 16,
+      "value": "\"sign_in_status\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 9,
+      "value": "\"regcode\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 13,
+      "value": "\"not_started\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 13,
+      "value": "\"in_progress\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 6,
+      "value": "\"done\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 13,
+      "value": "\"tve_sign_in\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 15,
+      "value": "\"start_sign_in\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 16,
+      "value": "\"sign_in_status\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVESignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVESignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 67,
+      "value": "\"VizbeeTVESignInStatus(\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVESignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 1,
+      "value": "\", regCode='\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVESignInStatusEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 3,
+      "value": "\"')\""
+    }
+  ]
+}
