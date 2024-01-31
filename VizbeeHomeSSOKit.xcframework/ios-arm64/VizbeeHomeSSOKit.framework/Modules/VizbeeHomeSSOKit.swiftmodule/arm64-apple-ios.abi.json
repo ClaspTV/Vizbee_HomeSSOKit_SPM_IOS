@@ -1071,133 +1071,133 @@
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 1853,
+      "offset": 1816,
       "length": 26,
       "value": "\"VZBSSO_VZBHomeSSOManager\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 2389,
+      "offset": 2359,
       "length": 57,
       "value": "\"start HomeSSO for sign in type = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 2445,
+      "offset": 2415,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2812,
       "length": 51,
       "value": "\"Error fetching mobile's sign in status - ignoring\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 2980,
       "length": 81,
       "value": "\"Mobile sign in status fetched - is mobile signed in = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 3060,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 3575,
+      "offset": 3559,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 3675,
       "length": 128,
       "value": "\"Sending an event = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 3734,
+      "offset": 3725,
       "length": 4,
       "value": "\" with data = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 3757,
       "length": 3,
       "value": "\" and also registering for the same event type\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 4226,
+      "offset": 4224,
       "length": 31,
       "value": "\"onEvent with event = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4254,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4794,
       "length": 35,
       "value": "\"Invoked onSignInStatus on adapter\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 5003,
+      "offset": 5015,
       "length": 48,
       "value": "\"Session state changed, new state = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 5050,
+      "offset": 5062,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 5135,
+      "offset": 5154,
       "length": 85,
       "value": "\"sign in type to start on TV = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 5216,
+      "offset": 5235,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 5219,
+      "offset": 5238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOManager.swift",
       "kind": "StringLiteral",
-      "offset": 1617,
+      "offset": 1580,
       "length": 17,
       "value": "\"VizbeeHomeSSOKit.VZBHomeSSOHandler\""
     },
