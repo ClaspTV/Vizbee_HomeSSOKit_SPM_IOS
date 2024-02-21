@@ -8,50 +8,52 @@ import VizbeeKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class VZBSignInStatusEvent {
-  final public let type: VizbeeHomeSSOKit.VZBSignInType
-  final public let status: VizbeeHomeSSOKit.VZBSignInStatus
+import os.log
+import os
+@_hasMissingDesignatedInitializers @objc public class VZBTVSignInStatus : ObjectiveC.NSObject {
+  @objc final public let signInType: Swift.String
+  @objc public var signInStatus: VizbeeHomeSSOKit.VZBSignInStatus
+  @objc public var customData: [Swift.String : Any]?
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VZBHomeSSOManager : ObjectiveC.NSObject {
-  public static var shared: VizbeeHomeSSOKit.VZBHomeSSOManager {
-    get
+@objc @objcMembers public class VZBSignInInfo : ObjectiveC.NSObject {
+  @objc final public let signInType: Swift.String
+  @objc final public let isSignedIn: Swift.Bool
+  @objc final public let customData: [Swift.String : Any]?
+  @objc public init(withSignInType type: Swift.String, isSignedIn signedIn: Swift.Bool, andCustomData data: [Swift.String : Any]?)
+  @objc override dynamic public var description: Swift.String {
+    @objc get
   }
-  public func initialize(signInAdapter adapter: any VizbeeHomeSSOKit.VZBHomeSSOAdapter)
   @objc deinit
 }
-public enum VZBSignInType : Swift.String {
-  case tveSignIn
-  case unknown
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum VZBSignInStatus : Swift.String {
+@objc public enum VZBSignInStatus : Swift.Int {
   case signInNotStarted
   case signInInProgress
   case signInCompleted
   case signInFailed
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  case signInCancelled
+  public var rawValueString: Swift.String {
+    get
+  }
+  public init?(rawValueString: Swift.String)
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
-public protocol VZBHomeSSOAdapter {
-  func isSignedIn(signInType: VizbeeHomeSSOKit.VZBSignInType, completionHandler: @escaping (Swift.Bool?, (any Swift.Error)?) -> Swift.Void)
-  func getSignInTypeToStartOnTV() -> VizbeeHomeSSOKit.VZBSignInType
-  func onSignInStatus(_ status: VizbeeHomeSSOKit.VZBSignInStatusEvent)
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VZBTVESignInStatusEvent : VizbeeHomeSSOKit.VZBSignInStatusEvent {
-  final public let regCode: Swift.String
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VZBHomeSSOManager : ObjectiveC.NSObject {
+  @objc public static let shared: VizbeeHomeSSOKit.VZBHomeSSOManager
+  @objc public func assign(signInAdapter adapter: any VizbeeHomeSSOKit.VZBHomeSSOAdapter)
   @objc deinit
 }
-extension VizbeeHomeSSOKit.VZBSignInType : Swift.Equatable {}
-extension VizbeeHomeSSOKit.VZBSignInType : Swift.Hashable {}
-extension VizbeeHomeSSOKit.VZBSignInType : Swift.RawRepresentable {}
+@objc public protocol VZBHomeSSOAdapter {
+  @objc func getSignedInInfo(callback: @escaping ([VizbeeHomeSSOKit.VZBSignInInfo]) -> Swift.Void)
+  @objc func onTVSignInStatus(_ status: VizbeeHomeSSOKit.VZBTVSignInStatus)
+}
 extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.Equatable {}
 extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.Hashable {}
 extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.RawRepresentable {}

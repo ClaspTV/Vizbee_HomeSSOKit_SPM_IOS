@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -298,11 +299,66 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class VZBSignInInfo;
+@class VZBTVSignInStatus;
 
-/// The front facing singleton that must be initialised by the app during app onCreate along with Vizbee Continuity SDK initialisation. This class provides an API to send the start sign-in message to the TV.
+SWIFT_PROTOCOL("_TtP16VizbeeHomeSSOKit17VZBHomeSSOAdapter_")
+@protocol VZBHomeSSOAdapter
+/// App should implement this method to provide whether the user has signed in via the given method or not.
+/// \param completionHandler A callback through which the app informs the SDK about its sign-in status.
+///
+- (void)getSignedInInfoWithCallback:(void (^ _Nonnull)(NSArray<VZBSignInInfo *> * _Nonnull))callback;
+/// SDK invokes this method to pass the sign-in status with the registration code.
+/// \param status The sign-in status of the TV.
+///
+- (void)onTVSignInStatus:(VZBTVSignInStatus * _Nonnull)status;
+@end
+
+
+/// The front facing singleton that must be initialised by the app during the app initialization on AppDelegate initWithLaunchOptions along with Vizbee Continuity SDK initialisation. This class provides an API to send the start sign-in message to the TV.
 /// It also implements the Vizbee Continuity SDK’s EventHandler interface and propagates the event to the adapter by invoking onSignInStatus(status) API so the app can read the reg code and authenticate the TV.
 SWIFT_CLASS("_TtC16VizbeeHomeSSOKit17VZBHomeSSOManager")
 @interface VZBHomeSSOManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VZBHomeSSOManager * _Nonnull shared;)
++ (VZBHomeSSOManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Fundamental step for initialising HomeSSO SDK
+/// \param adapter Sign In Adapter adapter implementation to be provided by app
+///
+- (void)assignWithSignInAdapter:(id <VZBHomeSSOAdapter> _Nonnull)adapter;
+@end
+
+@class NSString;
+
+/// Base sign in status event that just contains the type and the plain status of the current sign in
+SWIFT_CLASS("_TtC16VizbeeHomeSSOKit13VZBSignInInfo")
+@interface VZBSignInInfo : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull signInType;
+@property (nonatomic, readonly) BOOL isSignedIn;
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable customData;
+- (nonnull instancetype)initWithSignInType:(NSString * _Nonnull)type isSignedIn:(BOOL)signedIn andCustomData:(NSDictionary<NSString *, id> * _Nullable)data OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, VZBSignInStatus, open) {
+  VZBSignInStatusSignInNotStarted = 0,
+  VZBSignInStatusSignInInProgress = 1,
+  VZBSignInStatusSignInCompleted = 2,
+  VZBSignInStatusSignInFailed = 3,
+  VZBSignInStatusSignInCancelled = 4,
+};
+
+
+/// Base sign in status event that just contains the type and the plain status of the current sign in
+SWIFT_CLASS("_TtC16VizbeeHomeSSOKit17VZBTVSignInStatus")
+@interface VZBTVSignInStatus : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull signInType;
+@property (nonatomic) enum VZBSignInStatus signInStatus;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
