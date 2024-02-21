@@ -305,7 +305,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_PROTOCOL("_TtP16VizbeeHomeSSOKit17VZBHomeSSOAdapter_")
 @protocol VZBHomeSSOAdapter
 /// App should implement this method to provide whether the user has signed in via the given method or not.
-/// \param completionHandler A callback through which the app informs the SDK about its sign-in status.
+/// \param callback A callback through which the app informs the SDK about its sign-in status.
 ///
 - (void)getSignedInInfoWithCallback:(void (^ _Nonnull)(NSArray<VZBSignInInfo *> * _Nonnull))callback;
 /// SDK invokes this method to pass the sign-in status with the registration code.
@@ -678,7 +678,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_PROTOCOL("_TtP16VizbeeHomeSSOKit17VZBHomeSSOAdapter_")
 @protocol VZBHomeSSOAdapter
 /// App should implement this method to provide whether the user has signed in via the given method or not.
-/// \param completionHandler A callback through which the app informs the SDK about its sign-in status.
+/// \param callback A callback through which the app informs the SDK about its sign-in status.
 ///
 - (void)getSignedInInfoWithCallback:(void (^ _Nonnull)(NSArray<VZBSignInInfo *> * _Nonnull))callback;
 /// SDK invokes this method to pass the sign-in status with the registration code.
