@@ -81,19 +81,19 @@
           },
           {
             "kind": "Var",
-            "name": "signInStatus",
-            "printedName": "signInStatus",
+            "name": "signInState",
+            "printedName": "signInState",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VZBSignInStatus",
-                "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                "name": "VZBSignInState",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBTVSignInStatus(py)signInStatus",
-            "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signeF0AA07VZBSigneF0Ovp",
+            "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBTVSignInStatus(py)signInState",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signE5StateAA07VZBSigneH0Ovp",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "HasStorage",
@@ -109,14 +109,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBTVSignInStatus(im)signInStatus",
-                "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signeF0AA07VZBSigneF0Ovg",
+                "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBTVSignInStatus(im)signInState",
+                "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signE5StateAA07VZBSigneH0Ovg",
                 "moduleName": "VizbeeHomeSSOKit",
                 "implicit": true,
                 "declAttributes": [
@@ -136,14 +136,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBTVSignInStatus(im)setSignInStatus:",
-                "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signeF0AA07VZBSigneF0Ovs",
+                "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBTVSignInStatus(im)setSignInState:",
+                "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signE5StateAA07VZBSigneH0Ovs",
                 "moduleName": "VizbeeHomeSSOKit",
                 "implicit": true,
                 "declAttributes": [
@@ -163,8 +163,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16VizbeeHomeSSOKit17VZBTVSignInStatusC04signeF0AA07VZBSigneF0OvM",
-                "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signeF0AA07VZBSigneF0OvM",
+                "usr": "s:16VizbeeHomeSSOKit17VZBTVSignInStatusC04signE5StateAA07VZBSigneH0OvM",
+                "mangledName": "$s16VizbeeHomeSSOKit17VZBTVSignInStatusC04signE5StateAA07VZBSigneH0OvM",
                 "moduleName": "VizbeeHomeSSOKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -913,8 +913,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VZBSignInStatus",
-        "printedName": "VZBSignInStatus",
+        "name": "VZBSignInState",
+        "printedName": "VZBSignInState",
         "children": [
           {
             "kind": "Var",
@@ -924,24 +924,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInState.Type) -> VizbeeHomeSSOKit.VZBSignInState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VZBSignInStatus",
-                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                        "name": "VZBSignInState",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                       }
                     ]
                   }
@@ -949,8 +949,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus@VZBSignInStatusSignInNotStarted",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE10NotStartedyA2CmF",
+            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState@VZBSignInStateSignInNotStarted",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO04signE10NotStartedyA2CmF",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "ObjC"
@@ -965,24 +965,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInState.Type) -> VizbeeHomeSSOKit.VZBSignInState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VZBSignInStatus",
-                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                        "name": "VZBSignInState",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                       }
                     ]
                   }
@@ -990,8 +990,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus@VZBSignInStatusSignInInProgress",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signeE8ProgressyA2CmF",
+            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState@VZBSignInStateSignInInProgress",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO04signeE8ProgressyA2CmF",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "ObjC"
@@ -1006,24 +1006,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInState.Type) -> VizbeeHomeSSOKit.VZBSignInState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VZBSignInStatus",
-                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                        "name": "VZBSignInState",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                       }
                     ]
                   }
@@ -1031,8 +1031,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus@VZBSignInStatusSignInCompleted",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE9CompletedyA2CmF",
+            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState@VZBSignInStateSignInCompleted",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO04signE9CompletedyA2CmF",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "ObjC"
@@ -1047,24 +1047,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInState.Type) -> VizbeeHomeSSOKit.VZBSignInState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VZBSignInStatus",
-                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                        "name": "VZBSignInState",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                       }
                     ]
                   }
@@ -1072,8 +1072,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus@VZBSignInStatusSignInFailed",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE6FailedyA2CmF",
+            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState@VZBSignInStateSignInFailed",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO04signE6FailedyA2CmF",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "ObjC"
@@ -1088,24 +1088,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(VizbeeHomeSSOKit.VZBSignInStatus.Type) -> VizbeeHomeSSOKit.VZBSignInStatus",
+                "printedName": "(VizbeeHomeSSOKit.VZBSignInState.Type) -> VizbeeHomeSSOKit.VZBSignInState",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus.Type",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "VZBSignInStatus",
-                        "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                        "name": "VZBSignInState",
+                        "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                       }
                     ]
                   }
@@ -1113,8 +1113,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus@VZBSignInStatusSignInCancelled",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO04signE9CancelledyA2CmF",
+            "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState@VZBSignInStateSignInCancelled",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO04signE9CancelledyA2CmF",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "ObjC"
@@ -1134,8 +1134,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO14rawValueStringSSvp",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO14rawValueStringSSvp",
+            "usr": "s:16VizbeeHomeSSOKit14VZBSignInStateO14rawValueStringSSvp",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO14rawValueStringSSvp",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "AccessControl",
@@ -1155,8 +1155,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO14rawValueStringSSvg",
-                "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO14rawValueStringSSvg",
+                "usr": "s:16VizbeeHomeSSOKit14VZBSignInStateO14rawValueStringSSvg",
+                "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO14rawValueStringSSvg",
                 "moduleName": "VizbeeHomeSSOKit",
                 "accessorKind": "get"
               }
@@ -1170,13 +1170,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VizbeeHomeSSOKit.VZBSignInStatus?",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInState?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   }
                 ],
                 "usr": "s:Sq"
@@ -1189,8 +1189,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO14rawValueStringACSgSS_tcfc",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO14rawValueStringACSgSS_tcfc",
+            "usr": "s:16VizbeeHomeSSOKit14VZBSignInStateO14rawValueStringACSgSS_tcfc",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO14rawValueStringACSgSS_tcfc",
             "moduleName": "VizbeeHomeSSOKit",
             "declAttributes": [
               "AccessControl",
@@ -1206,13 +1206,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VizbeeHomeSSOKit.VZBSignInStatus?",
+                "printedName": "VizbeeHomeSSOKit.VZBSignInState?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VZBSignInStatus",
-                    "printedName": "VizbeeHomeSSOKit.VZBSignInStatus",
-                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus"
+                    "name": "VZBSignInState",
+                    "printedName": "VizbeeHomeSSOKit.VZBSignInState",
+                    "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState"
                   }
                 ],
                 "usr": "s:Sq"
@@ -1225,8 +1225,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueACSgSi_tcfc",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueACSgSi_tcfc",
+            "usr": "s:16VizbeeHomeSSOKit14VZBSignInStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO8rawValueACSgSi_tcfc",
             "moduleName": "VizbeeHomeSSOKit",
             "implicit": true,
             "init_kind": "Designated"
@@ -1244,8 +1244,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSivp",
-            "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSivp",
+            "usr": "s:16VizbeeHomeSSOKit14VZBSignInStateO8rawValueSivp",
+            "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO8rawValueSivp",
             "moduleName": "VizbeeHomeSSOKit",
             "implicit": true,
             "accessors": [
@@ -1262,8 +1262,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSivg",
-                "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO8rawValueSivg",
+                "usr": "s:16VizbeeHomeSSOKit14VZBSignInStateO8rawValueSivg",
+                "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO8rawValueSivg",
                 "moduleName": "VizbeeHomeSSOKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1272,8 +1272,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInStatus",
-        "mangledName": "$s16VizbeeHomeSSOKit15VZBSignInStatusO",
+        "usr": "c:@M@VizbeeHomeSSOKit@E@VZBSignInState",
+        "mangledName": "$s16VizbeeHomeSSOKit14VZBSignInStateO",
         "moduleName": "VizbeeHomeSSOKit",
         "declAttributes": [
           "AccessControl",
@@ -1414,8 +1414,8 @@
           },
           {
             "kind": "Function",
-            "name": "assign",
-            "printedName": "assign(signInAdapter:)",
+            "name": "start",
+            "printedName": "start(withAdapter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1430,10 +1430,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBHomeSSOManager(im)assignWithSignInAdapter:",
-            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOManagerC6assign13signInAdapteryAA0D10SSOAdapter_p_tF",
+            "usr": "c:@M@VizbeeHomeSSOKit@objc(cs)VZBHomeSSOManager(im)startWithAdapter:",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOManagerC5start11withAdapteryAA0D10SSOAdapter_p_tF",
             "moduleName": "VizbeeHomeSSOKit",
-            "objc_name": "assignWithSignInAdapter:",
+            "objc_name": "startWithAdapter:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -1577,8 +1577,8 @@
           },
           {
             "kind": "Function",
-            "name": "onTVSignInStatus",
-            "printedName": "onTVSignInStatus(_:)",
+            "name": "onReceiveTVSignInStatus",
+            "printedName": "onReceiveTVSignInStatus(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1593,8 +1593,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@VizbeeHomeSSOKit@objc(pl)VZBHomeSSOAdapter(im)onTVSignInStatus:",
-            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOAdapterP16onTVSignInStatusyyAA09VZBTVSignhI0CF",
+            "usr": "c:@M@VizbeeHomeSSOKit@objc(pl)VZBHomeSSOAdapter(im)onReceiveTVSignInStatus:",
+            "mangledName": "$s16VizbeeHomeSSOKit17VZBHomeSSOAdapterP23onReceiveTVSignInStatusyyAA09VZBTVSigniJ0CF",
             "moduleName": "VizbeeHomeSSOKit",
             "genericSig": "<τ_0_0 where τ_0_0 : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
             "sugared_genericSig": "<Self where Self : VizbeeHomeSSOKit.VZBHomeSSOAdapter>",
@@ -1635,79 +1635,86 @@
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 451,
       "length": 26,
       "value": "\"VZBSSO_VZBTVSignInStatus\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "IntegerLiteral",
-      "offset": 629,
+      "offset": 630,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 719,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 766,
-      "length": 53,
+      "offset": 767,
+      "length": 56,
       "value": "\"Empty \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 809,
+      "offset": 813,
       "length": 8,
       "value": "\" received\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
-      "length": 70,
-      "value": "\"signInType=\""
+      "kind": "Dictionary",
+      "offset": 1190,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1272,
+      "length": 57,
+      "value": "\"type=\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
       "length": 1,
-      "value": "\", signInStatus=\""
-    },
-    {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 1387,
-      "length": 36,
       "value": "\", status=\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
+      "offset": 1328,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
       "kind": "StringLiteral",
-      "offset": 1459,
-      "length": 15,
-      "value": "\", status=NONE\""
+      "offset": 1386,
+      "length": 40,
+      "value": "\", customData=\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1462,
+      "length": 19,
+      "value": "\", customData=NONE\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBTVSignInStatus.swift",
@@ -1718,43 +1725,50 @@
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 672,
-      "length": 64,
-      "value": "\"signInType=\""
+      "kind": "Dictionary",
+      "offset": 599,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 679,
+      "length": 58,
+      "value": "\"type=\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
       "length": 1,
       "value": "\", isSignedIn=\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
       "kind": "StringLiteral",
-      "offset": 735,
+      "offset": 736,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 785,
       "length": 40,
       "value": "\", customData=\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
       "kind": "StringLiteral",
-      "offset": 823,
+      "offset": 824,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInInfo.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 861,
       "length": 19,
       "value": "\", customData=NONE\""
     },
@@ -1787,121 +1801,128 @@
       "value": "\"%{public}@ - %{public}@ : %{public}lu | %{public}@\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 188,
+      "offset": 187,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 214,
+      "offset": 213,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 238,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 261,
+      "offset": 260,
       "length": 15,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 458,
       "length": 13,
       "value": "\"not_started\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 523,
       "length": 13,
       "value": "\"in_progress\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 588,
-      "length": 6,
-      "value": "\"done\""
+      "offset": 587,
+      "length": 11,
+      "value": "\"completed\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 642,
-      "length": 9,
-      "value": "\"failure\""
+      "offset": 646,
+      "length": 8,
+      "value": "\"failed\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 705,
       "length": 11,
       "value": "\"cancelled\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 903,
       "length": 13,
       "value": "\"not_started\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 968,
       "length": 13,
       "value": "\"in_progress\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 6,
-      "value": "\"done\""
+      "offset": 1033,
+      "length": 11,
+      "value": "\"completed\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
-      "length": 9,
-      "value": "\"failure\""
+      "offset": 1095,
+      "length": 8,
+      "value": "\"failed\""
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
+      "kind": "StringLiteral",
+      "offset": 1151,
+      "length": 11,
+      "value": "\"cancelled\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 188,
+      "offset": 187,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 214,
+      "offset": 213,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 238,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInStatus.swift",
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/model\/VZBSignInState.swift",
       "kind": "IntegerLiteral",
-      "offset": 261,
+      "offset": 260,
       "length": 15,
       "value": "4"
     },
@@ -1915,105 +1936,112 @@
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 626,
+      "length": 20,
+      "value": "\"initialize invoked\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
       "length": 27,
       "value": "\"Start HomeSSO for sign in\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1516,
+      "offset": 1590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1574,
-      "length": 42,
-      "value": "\"Invalid status with empty sign in status\""
+      "offset": 1648,
+      "length": 40,
+      "value": "\"Invalid status with empty sign in type\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1773,
       "length": 86,
       "value": "\"Mobile sign in status fetched - is mobile signed in = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1786,
+      "offset": 1858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2237,
+      "offset": 2330,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
-      "length": 132,
+      "offset": 2491,
+      "length": 135,
       "value": "\"Sending an event = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2503,
+      "offset": 2548,
       "length": 4,
       "value": "\" with data = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2535,
+      "offset": 2580,
       "length": 3,
       "value": "\" and also registering for the same event type\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 2896,
       "length": 45,
       "value": "\"Method onEvent called with event = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2892,
+      "offset": 2940,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3424,
+      "offset": 3491,
       "length": 35,
       "value": "\"Invoked onSignInStatus on adapter\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3645,
+      "offset": 3712,
       "length": 48,
       "value": "\"Session state changed, new state = \""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3692,
+      "offset": 3759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHomeSSOHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3784,
+      "offset": 3851,
       "length": 21,
       "value": "\"Start Sign In on TV\""
     },
@@ -2027,133 +2055,112 @@
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 179,
       "length": 26,
       "value": "\"tv.vizbee.homesso.signin\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 236,
       "length": 10,
       "value": "\"sub_type\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 289,
-      "length": 20,
-      "value": "\"start_sign_in_info\""
+      "offset": 292,
+      "length": 7,
+      "value": "\"sinfo\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 344,
+      "offset": 334,
       "length": 14,
       "value": "\"is_signed_in\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 393,
-      "length": 14,
-      "value": "\"sign_in_type\""
+      "offset": 383,
+      "length": 7,
+      "value": "\"stype\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 442,
+      "offset": 425,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 471,
       "length": 11,
       "value": "\"device_os\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 533,
+      "offset": 516,
       "length": 13,
       "value": "\"custom_data\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 584,
-      "length": 16,
-      "value": "\"sign_in_status\""
-    },
-    {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 566,
       "length": 9,
-      "value": "\"regcode\""
+      "value": "\"sstatus\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 720,
+      "offset": 603,
+      "length": 8,
+      "value": "\"sstate\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
       "length": 13,
       "value": "\"not_started\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 705,
       "length": 13,
       "value": "\"in_progress\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 820,
+      "offset": 754,
       "length": 6,
       "value": "\"done\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 859,
+      "offset": 793,
       "length": 9,
       "value": "\"failure\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 903,
-      "length": 13,
-      "value": "\"tve_sign_in\""
-    },
-    {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 942,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 853,
       "length": 15,
       "value": "\"start_sign_in\""
     },
     {
       "filePath": "\/Users\/sidharthdatta\/Documents\/Remote_SDK_iOS\/VizbeeKit\/VizbeeHomeSSOKit\/VZBHSSOConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 915,
       "length": 16,
       "value": "\"sign_in_status\""
     }

@@ -4,45 +4,60 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ChangeLog.md</key>
+		<data>
+		p2XuopreeiI+wIGenoMFRf8246A=
+		</data>
 		<key>Headers/VizbeeHomeSSO.h</key>
 		<data>
 		C8cctPjl/NGYJOg2yIkFh3k0aNw=
 		</data>
 		<key>Headers/VizbeeHomeSSOKit-Swift.h</key>
 		<data>
-		+NhnF5/f14fVn29DB7cZ/ZMcj+8=
+		6aZPgDFnBzzylzTbbAMCwBjrRoE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V50FF30DXjiZcLhrsB10OzxP+ZM=
+		0xZVfs41qHXGYlg1f7xE+7FaG90=
 		</data>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CUkr95DJuDPTQynIrgBhTDpwP0w=
+		VrVLeUvvFuN5x+tdTi0cXSMz0+c=
 		</data>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1PnCy3wGDuCXS1VWFzUZvtdg6g8=
+		tuNoQVOTooHEgIO9n5Tmwp1V1EA=
 		</data>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gEgJ+kh7fxFs78OwI29mXlMLBSs=
+		oFMDLU3AkhenEcxzHxjBDcp1nqM=
 		</data>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1PnCy3wGDuCXS1VWFzUZvtdg6g8=
+		tuNoQVOTooHEgIO9n5Tmwp1V1EA=
 		</data>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cr1TmFEqrpHAoSzEmUbPVqiYR48=
+		Se9gZ9zBrV2555lPpEblFzNuC5A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		B8EZ+3VVqj7n+iznxY39D96zITA=
 		</data>
+		<key>README.md</key>
+		<data>
+		Q1EpShF1xL/m/4dZ0Y+0R/FcRk8=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ChangeLog.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xP2iIx4bfTeN+djRpbiD3OPuO012+bTJHbJ729FaYgQ=
+			</data>
+		</dict>
 		<key>Headers/VizbeeHomeSSO.h</key>
 		<dict>
 			<key>hash2</key>
@@ -54,42 +69,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yqf6e7/QggKhTdUbccckz2FVGs/i3/ACh3hu3enUBWY=
+			cBkNTTDMNoeG9ey8PJgifR2MxS1Sn4AF52VdmGet/V8=
 			</data>
 		</dict>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xbqZfRTg0KuJ4klUGmwDQjhrwGS0pxxNn3rBxI4gMnk=
+			SlbGmSBWkp6cYvWXDeKvrno0yH5SYOMeqD2/DogqQUE=
 			</data>
 		</dict>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ejR6ezlh/xiLuVZABJau01tA9vrTC99wWzMy+6hPyMg=
+			N5O1DO9NtL6L/KfobDbmk8gxi4/LJCTTBBb87jSJv+k=
 			</data>
 		</dict>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tlPi+YqUipuak91xBou2A1GKQLAuoI1EwliYl+nM+64=
+			XNP6lGCV7n3cVPVHY5zT7RhLHgHniu+v+URLkFxodKo=
 			</data>
 		</dict>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ejR6ezlh/xiLuVZABJau01tA9vrTC99wWzMy+6hPyMg=
+			N5O1DO9NtL6L/KfobDbmk8gxi4/LJCTTBBb87jSJv+k=
 			</data>
 		</dict>
 		<key>Modules/VizbeeHomeSSOKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfocPnG2DH3dXQJzZQ33DH0yA19PaB7vu62QucyaGCk=
+			AT5UJpuFpA1u7C4nV13AqhTRPVbTAwIaMn0/DpWmBJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -97,6 +112,13 @@
 			<key>hash2</key>
 			<data>
 			vhsr3wDx8IVeXoqa1b1jl4O+IdV90UxSV61D0CILsxw=
+			</data>
+		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CCn2fJwHNwpS0fbn666eahPbBbi0yXlttZKzeH9zyVQ=
 			</data>
 		</dict>
 	</dict>

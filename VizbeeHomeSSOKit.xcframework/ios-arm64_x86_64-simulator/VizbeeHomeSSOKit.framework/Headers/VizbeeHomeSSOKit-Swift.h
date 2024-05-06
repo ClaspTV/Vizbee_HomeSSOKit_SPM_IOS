@@ -311,7 +311,7 @@ SWIFT_PROTOCOL("_TtP16VizbeeHomeSSOKit17VZBHomeSSOAdapter_")
 /// SDK invokes this method to pass the sign-in status with the registration code.
 /// \param status The sign-in status of the TV.
 ///
-- (void)onTVSignInStatus:(VZBTVSignInStatus * _Nonnull)status;
+- (void)onReceiveTVSignInStatus:(VZBTVSignInStatus * _Nonnull)status;
 @end
 
 
@@ -326,7 +326,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VZBHomeSSOMa
 /// Fundamental step for initialising HomeSSO SDK
 /// \param adapter Sign In Adapter adapter implementation to be provided by app
 ///
-- (void)assignWithSignInAdapter:(id <VZBHomeSSOAdapter> _Nonnull)adapter;
+- (void)startWithAdapter:(id <VZBHomeSSOAdapter> _Nonnull)adapter;
 @end
 
 @class NSString;
@@ -343,12 +343,12 @@ SWIFT_CLASS("_TtC16VizbeeHomeSSOKit13VZBSignInInfo")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, VZBSignInStatus, open) {
-  VZBSignInStatusSignInNotStarted = 0,
-  VZBSignInStatusSignInInProgress = 1,
-  VZBSignInStatusSignInCompleted = 2,
-  VZBSignInStatusSignInFailed = 3,
-  VZBSignInStatusSignInCancelled = 4,
+typedef SWIFT_ENUM(NSInteger, VZBSignInState, open) {
+  VZBSignInStateSignInNotStarted = 0,
+  VZBSignInStateSignInInProgress = 1,
+  VZBSignInStateSignInCompleted = 2,
+  VZBSignInStateSignInFailed = 3,
+  VZBSignInStateSignInCancelled = 4,
 };
 
 
@@ -356,7 +356,7 @@ typedef SWIFT_ENUM(NSInteger, VZBSignInStatus, open) {
 SWIFT_CLASS("_TtC16VizbeeHomeSSOKit17VZBTVSignInStatus")
 @interface VZBTVSignInStatus : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull signInType;
-@property (nonatomic) enum VZBSignInStatus signInStatus;
+@property (nonatomic) enum VZBSignInState signInState;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -684,7 +684,7 @@ SWIFT_PROTOCOL("_TtP16VizbeeHomeSSOKit17VZBHomeSSOAdapter_")
 /// SDK invokes this method to pass the sign-in status with the registration code.
 /// \param status The sign-in status of the TV.
 ///
-- (void)onTVSignInStatus:(VZBTVSignInStatus * _Nonnull)status;
+- (void)onReceiveTVSignInStatus:(VZBTVSignInStatus * _Nonnull)status;
 @end
 
 
@@ -699,7 +699,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VZBHomeSSOMa
 /// Fundamental step for initialising HomeSSO SDK
 /// \param adapter Sign In Adapter adapter implementation to be provided by app
 ///
-- (void)assignWithSignInAdapter:(id <VZBHomeSSOAdapter> _Nonnull)adapter;
+- (void)startWithAdapter:(id <VZBHomeSSOAdapter> _Nonnull)adapter;
 @end
 
 @class NSString;
@@ -716,12 +716,12 @@ SWIFT_CLASS("_TtC16VizbeeHomeSSOKit13VZBSignInInfo")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, VZBSignInStatus, open) {
-  VZBSignInStatusSignInNotStarted = 0,
-  VZBSignInStatusSignInInProgress = 1,
-  VZBSignInStatusSignInCompleted = 2,
-  VZBSignInStatusSignInFailed = 3,
-  VZBSignInStatusSignInCancelled = 4,
+typedef SWIFT_ENUM(NSInteger, VZBSignInState, open) {
+  VZBSignInStateSignInNotStarted = 0,
+  VZBSignInStateSignInInProgress = 1,
+  VZBSignInStateSignInCompleted = 2,
+  VZBSignInStateSignInFailed = 3,
+  VZBSignInStateSignInCancelled = 4,
 };
 
 
@@ -729,7 +729,7 @@ typedef SWIFT_ENUM(NSInteger, VZBSignInStatus, open) {
 SWIFT_CLASS("_TtC16VizbeeHomeSSOKit17VZBTVSignInStatus")
 @interface VZBTVSignInStatus : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull signInType;
-@property (nonatomic) enum VZBSignInStatus signInStatus;
+@property (nonatomic) enum VZBSignInState signInState;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

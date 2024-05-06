@@ -12,7 +12,7 @@ import os.log
 import os
 @_hasMissingDesignatedInitializers @objc public class VZBTVSignInStatus : ObjectiveC.NSObject {
   @objc final public let signInType: Swift.String
-  @objc public var signInStatus: VizbeeHomeSSOKit.VZBSignInStatus
+  @objc public var signInState: VizbeeHomeSSOKit.VZBSignInState
   @objc public var customData: [Swift.String : Any]?
   @objc override dynamic public var description: Swift.String {
     @objc get
@@ -29,7 +29,7 @@ import os
   }
   @objc deinit
 }
-@objc public enum VZBSignInStatus : Swift.Int {
+@objc public enum VZBSignInState : Swift.Int {
   case signInNotStarted
   case signInInProgress
   case signInCompleted
@@ -47,13 +47,13 @@ import os
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VZBHomeSSOManager : ObjectiveC.NSObject {
   @objc public static let shared: VizbeeHomeSSOKit.VZBHomeSSOManager
-  @objc public func assign(signInAdapter adapter: any VizbeeHomeSSOKit.VZBHomeSSOAdapter)
+  @objc public func start(withAdapter adapter: any VizbeeHomeSSOKit.VZBHomeSSOAdapter)
   @objc deinit
 }
 @objc public protocol VZBHomeSSOAdapter {
   @objc func getSignedInInfo(callback: @escaping ([VizbeeHomeSSOKit.VZBSignInInfo]) -> Swift.Void)
-  @objc func onTVSignInStatus(_ status: VizbeeHomeSSOKit.VZBTVSignInStatus)
+  @objc func onReceiveTVSignInStatus(_ status: VizbeeHomeSSOKit.VZBTVSignInStatus)
 }
-extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.Equatable {}
-extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.Hashable {}
-extension VizbeeHomeSSOKit.VZBSignInStatus : Swift.RawRepresentable {}
+extension VizbeeHomeSSOKit.VZBSignInState : Swift.Equatable {}
+extension VizbeeHomeSSOKit.VZBSignInState : Swift.Hashable {}
+extension VizbeeHomeSSOKit.VZBSignInState : Swift.RawRepresentable {}
